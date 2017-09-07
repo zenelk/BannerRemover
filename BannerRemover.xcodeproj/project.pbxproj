@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F4594431B5BAE3000453776 /* oldBannerCoTag.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4594421B5BAE3000453776 /* oldBannerCoTag.png */; };
+		1F60D6401B5B0AF6008C117F /* BRBannerRemoverManagerErrorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F60D63F1B5B0AF6008C117F /* BRBannerRemoverManagerErrorFactory.m */; };
+		1F60D6431B5B1245008C117F /* BRFileListConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F60D6421B5B1245008C117F /* BRFileListConstructor.m */; };
+		1F95E5441B58B2C2004A273C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F95E5431B58B2C2004A273C /* AppDelegate.m */; };
+		1F95E5461B58B2C2004A273C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F95E5451B58B2C2004A273C /* main.m */; };
+		1F95E5491B58B2C2004A273C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F95E5481B58B2C2004A273C /* ViewController.m */; };
+		1F95E54B1B58B2C2004A273C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F95E54A1B58B2C2004A273C /* Images.xcassets */; };
+		1F95E54E1B58B2C2004A273C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F95E54C1B58B2C2004A273C /* Main.storyboard */; };
+		1F95E55A1B58B2C2004A273C /* BannerRemoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F95E5591B58B2C2004A273C /* BannerRemoverTests.m */; };
+		1F95E5661B58B5FF004A273C /* BRBannerDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F95E5651B58B5FF004A273C /* BRBannerDetector.m */; };
+		1F95E56A1B58B963004A273C /* BRBannerRemoverManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F95E5691B58B963004A273C /* BRBannerRemoverManager.m */; };
+		1F95E56C1B58C21B004A273C /* bannerTag.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F95E56B1B58C21B004A273C /* bannerTag.png */; };
+		1F95E56E1B58D386004A273C /* oldBannerTag.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F95E56D1B58D386004A273C /* oldBannerTag.png */; };
+		1F95E5721B59E7B9004A273C /* BRBannerRemover.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F95E5711B59E7B9004A273C /* BRBannerRemover.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F95E5541B58B2C2004A273C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F95E5351B58B2C2004A273C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F95E53C1B58B2C2004A273C;
+			remoteInfo = BannerRemover;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F4594421B5BAE3000453776 /* oldBannerCoTag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oldBannerCoTag.png; sourceTree = "<group>"; };
+		1F60D63E1B5B0AF6008C117F /* BRBannerRemoverManagerErrorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBannerRemoverManagerErrorFactory.h; sourceTree = "<group>"; };
+		1F60D63F1B5B0AF6008C117F /* BRBannerRemoverManagerErrorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBannerRemoverManagerErrorFactory.m; sourceTree = "<group>"; };
+		1F60D6411B5B1245008C117F /* BRFileListConstructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRFileListConstructor.h; sourceTree = "<group>"; };
+		1F60D6421B5B1245008C117F /* BRFileListConstructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRFileListConstructor.m; sourceTree = "<group>"; };
+		1F95E53D1B58B2C2004A273C /* BannerRemover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BannerRemover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F95E5411B58B2C2004A273C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F95E5421B58B2C2004A273C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F95E5431B58B2C2004A273C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F95E5451B58B2C2004A273C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F95E5471B58B2C2004A273C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F95E5481B58B2C2004A273C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F95E54A1B58B2C2004A273C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1F95E54D1B58B2C2004A273C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F95E5531B58B2C2004A273C /* BannerRemoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BannerRemoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F95E5581B58B2C2004A273C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F95E5591B58B2C2004A273C /* BannerRemoverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerRemoverTests.m; sourceTree = "<group>"; };
+		1F95E5641B58B5FF004A273C /* BRBannerDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBannerDetector.h; sourceTree = "<group>"; };
+		1F95E5651B58B5FF004A273C /* BRBannerDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBannerDetector.m; sourceTree = "<group>"; };
+		1F95E5681B58B963004A273C /* BRBannerRemoverManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBannerRemoverManager.h; sourceTree = "<group>"; };
+		1F95E5691B58B963004A273C /* BRBannerRemoverManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBannerRemoverManager.m; sourceTree = "<group>"; };
+		1F95E56B1B58C21B004A273C /* bannerTag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bannerTag.png; sourceTree = "<group>"; };
+		1F95E56D1B58D386004A273C /* oldBannerTag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oldBannerTag.png; sourceTree = "<group>"; };
+		1F95E5701B59E7B9004A273C /* BRBannerRemover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBannerRemover.h; sourceTree = "<group>"; };
+		1F95E5711B59E7B9004A273C /* BRBannerRemover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBannerRemover.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F95E53A1B58B2C2004A273C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F95E5501B58B2C2004A273C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F4594401B5B836900453776 /* BannerRemoverEngine */ = {
+			isa = PBXGroup;
+			children = (
+				1F95E5681B58B963004A273C /* BRBannerRemoverManager.h */,
+				1F95E5691B58B963004A273C /* BRBannerRemoverManager.m */,
+				1F60D63E1B5B0AF6008C117F /* BRBannerRemoverManagerErrorFactory.h */,
+				1F60D63F1B5B0AF6008C117F /* BRBannerRemoverManagerErrorFactory.m */,
+				1F60D6411B5B1245008C117F /* BRFileListConstructor.h */,
+				1F60D6421B5B1245008C117F /* BRFileListConstructor.m */,
+				1F95E5641B58B5FF004A273C /* BRBannerDetector.h */,
+				1F95E5651B58B5FF004A273C /* BRBannerDetector.m */,
+				1F95E5701B59E7B9004A273C /* BRBannerRemover.h */,
+				1F95E5711B59E7B9004A273C /* BRBannerRemover.m */,
+			);
+			name = BannerRemoverEngine;
+			sourceTree = "<group>";
+		};
+		1F4594411B5B83B300453776 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1F95E5471B58B2C2004A273C /* ViewController.h */,
+				1F95E5481B58B2C2004A273C /* ViewController.m */,
+				1F95E54C1B58B2C2004A273C /* Main.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		1F60D63D1B5B058F008C117F /* BannerTags */ = {
+			isa = PBXGroup;
+			children = (
+				1F4594421B5BAE3000453776 /* oldBannerCoTag.png */,
+				1F95E56B1B58C21B004A273C /* bannerTag.png */,
+				1F95E56D1B58D386004A273C /* oldBannerTag.png */,
+			);
+			name = BannerTags;
+			sourceTree = "<group>";
+		};
+		1F95E5341B58B2C2004A273C = {
+			isa = PBXGroup;
+			children = (
+				1F95E53F1B58B2C2004A273C /* BannerRemover */,
+				1F95E5561B58B2C2004A273C /* BannerRemoverTests */,
+				1F95E53E1B58B2C2004A273C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F95E53E1B58B2C2004A273C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F95E53D1B58B2C2004A273C /* BannerRemover.app */,
+				1F95E5531B58B2C2004A273C /* BannerRemoverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F95E53F1B58B2C2004A273C /* BannerRemover */ = {
+			isa = PBXGroup;
+			children = (
+				1F4594401B5B836900453776 /* BannerRemoverEngine */,
+				1F60D63D1B5B058F008C117F /* BannerTags */,
+				1F4594411B5B83B300453776 /* UI */,
+				1F95E54A1B58B2C2004A273C /* Images.xcassets */,
+				1F95E5401B58B2C2004A273C /* Supporting Files */,
+			);
+			path = BannerRemover;
+			sourceTree = "<group>";
+		};
+		1F95E5401B58B2C2004A273C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F95E5421B58B2C2004A273C /* AppDelegate.h */,
+				1F95E5431B58B2C2004A273C /* AppDelegate.m */,
+				1F95E5411B58B2C2004A273C /* Info.plist */,
+				1F95E5451B58B2C2004A273C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F95E5561B58B2C2004A273C /* BannerRemoverTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F95E5591B58B2C2004A273C /* BannerRemoverTests.m */,
+				1F95E5571B58B2C2004A273C /* Supporting Files */,
+			);
+			path = BannerRemoverTests;
+			sourceTree = "<group>";
+		};
+		1F95E5571B58B2C2004A273C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F95E5581B58B2C2004A273C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F95E53C1B58B2C2004A273C /* BannerRemover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F95E55D1B58B2C2004A273C /* Build configuration list for PBXNativeTarget "BannerRemover" */;
+			buildPhases = (
+				1F95E5391B58B2C2004A273C /* Sources */,
+				1F95E53A1B58B2C2004A273C /* Frameworks */,
+				1F95E53B1B58B2C2004A273C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BannerRemover;
+			productName = BannerRemover;
+			productReference = 1F95E53D1B58B2C2004A273C /* BannerRemover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F95E5521B58B2C2004A273C /* BannerRemoverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F95E5601B58B2C2004A273C /* Build configuration list for PBXNativeTarget "BannerRemoverTests" */;
+			buildPhases = (
+				1F95E54F1B58B2C2004A273C /* Sources */,
+				1F95E5501B58B2C2004A273C /* Frameworks */,
+				1F95E5511B58B2C2004A273C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F95E5551B58B2C2004A273C /* PBXTargetDependency */,
+			);
+			name = BannerRemoverTests;
+			productName = BannerRemoverTests;
+			productReference = 1F95E5531B58B2C2004A273C /* BannerRemoverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F95E5351B58B2C2004A273C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Zenel Kazushi";
+				TargetAttributes = {
+					1F95E53C1B58B2C2004A273C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1F95E5521B58B2C2004A273C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1F95E53C1B58B2C2004A273C;
+					};
+				};
+			};
+			buildConfigurationList = 1F95E5381B58B2C2004A273C /* Build configuration list for PBXProject "BannerRemover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F95E5341B58B2C2004A273C;
+			productRefGroup = 1F95E53E1B58B2C2004A273C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F95E53C1B58B2C2004A273C /* BannerRemover */,
+				1F95E5521B58B2C2004A273C /* BannerRemoverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F95E53B1B58B2C2004A273C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F95E56E1B58D386004A273C /* oldBannerTag.png in Resources */,
+				1F95E56C1B58C21B004A273C /* bannerTag.png in Resources */,
+				1F95E54B1B58B2C2004A273C /* Images.xcassets in Resources */,
+				1F95E54E1B58B2C2004A273C /* Main.storyboard in Resources */,
+				1F4594431B5BAE3000453776 /* oldBannerCoTag.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F95E5511B58B2C2004A273C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F95E5391B58B2C2004A273C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F60D6431B5B1245008C117F /* BRFileListConstructor.m in Sources */,
+				1F95E56A1B58B963004A273C /* BRBannerRemoverManager.m in Sources */,
+				1F60D6401B5B0AF6008C117F /* BRBannerRemoverManagerErrorFactory.m in Sources */,
+				1F95E5491B58B2C2004A273C /* ViewController.m in Sources */,
+				1F95E5721B59E7B9004A273C /* BRBannerRemover.m in Sources */,
+				1F95E5661B58B5FF004A273C /* BRBannerDetector.m in Sources */,
+				1F95E5461B58B2C2004A273C /* main.m in Sources */,
+				1F95E5441B58B2C2004A273C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F95E54F1B58B2C2004A273C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F95E55A1B58B2C2004A273C /* BannerRemoverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F95E5551B58B2C2004A273C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F95E53C1B58B2C2004A273C /* BannerRemover */;
+			targetProxy = 1F95E5541B58B2C2004A273C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F95E54C1B58B2C2004A273C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F95E54D1B58B2C2004A273C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F95E55B1B58B2C2004A273C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1F95E55C1B58B2C2004A273C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1F95E55E1B58B2C2004A273C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = BannerRemover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F95E55F1B58B2C2004A273C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = BannerRemover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1F95E5611B58B2C2004A273C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BannerRemoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BannerRemover.app/Contents/MacOS/BannerRemover";
+			};
+			name = Debug;
+		};
+		1F95E5621B58B2C2004A273C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BannerRemoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BannerRemover.app/Contents/MacOS/BannerRemover";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F95E5381B58B2C2004A273C /* Build configuration list for PBXProject "BannerRemover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F95E55B1B58B2C2004A273C /* Debug */,
+				1F95E55C1B58B2C2004A273C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F95E55D1B58B2C2004A273C /* Build configuration list for PBXNativeTarget "BannerRemover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F95E55E1B58B2C2004A273C /* Debug */,
+				1F95E55F1B58B2C2004A273C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F95E5601B58B2C2004A273C /* Build configuration list for PBXNativeTarget "BannerRemoverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F95E5611B58B2C2004A273C /* Debug */,
+				1F95E5621B58B2C2004A273C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F95E5351B58B2C2004A273C /* Project object */;
+}
